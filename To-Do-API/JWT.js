@@ -7,7 +7,7 @@ const createToken = async () => {
   );
   const uservar = await jwt.verify(
     token,
-    "mynameisvrushabhvasoyadeveloperexhibyte"
+    "mynameisvrudfcshabhvasoyadeveloperexhibyte"
   );
   console.log(uservar);
 };
