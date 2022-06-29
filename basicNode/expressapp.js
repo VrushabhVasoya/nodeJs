@@ -5,9 +5,11 @@ const port = 3000;
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
+
 app.get("/about", (req, res) => {
   res.send("This is an about");
 });
+
 app.get("/home", (req, res) => {
   res.send("welcome to my own world");
 });
